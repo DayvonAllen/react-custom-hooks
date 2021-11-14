@@ -8,5 +8,10 @@
       - `bundle.js`
       - `image.jpg`
       - `index.css` 
-    - Those static files will be uploaded to some `Deployment Target`(Server or service provider where the files will be hosted)
+    - Those static files will be uploaded to some `Deployment Target`(service provider where the files will be hosted)
+    - Whenever a user types in our URL or domain, they are always going to get a response with the `index.html`.
+      - Inside of that `index.html` files will be a variety of script and link tags that causes the browser to make additional requests to get additional JS or CSS files.
+    - When deploying a react app we don't need a full VM, as we are not executing any code.
+    - You only need a full virtual machine when you are running some kind of active server(eg. Node JS API, Spring API, Go API), it necessary for servers that are actively run some code.
+    - It costs dramatically less to deploy a react app compared to an API because it just requires a place to host static files.
 ---
