@@ -1,0 +1,12 @@
+## React Deployment Notes
+- `Create-React-App` has a command that builds out a react app
+  - When we build our app it creates a deployment bundle.
+    - In this deployment bundle are a couple of files required to run our project.
+    - Static files - normal files that can exist inside of some folder or directory.
+    - Files include:
+      - `index.html`
+      - `bundle.js`
+      - `image.jpg`
+      - `index.css` 
+    - Those static files will be uploaded to some `Deployment Target`(Server or service provider where the files will be hosted)
+---
